@@ -24,3 +24,12 @@ The VS Code dev container (`.devcontainer/devcontainer.json`) installs the `mise
 - Keep user-facing output at the command boundary: package functions return values, and `cmd/main.go` prints them.
 - Use one package directory per reusable concern beneath `pkg`, and import it from `cmd` rather than putting application logic directly in `main`.
 - Keep Go source formatted with `go fmt`; use standard Go package and test naming (`package hello`, `hello_test.go`, `TestXxx`).
+
+## コミットメッセージ
+
+- コミットメッセージは日本語で記述し、変更内容を簡潔に伝える。
+- 先頭行は `種類(対象): 変更内容` の形式にする。対象は必要な場合のみ指定する。
+- 種類には `feat`（機能追加）、`fix`（不具合修正）、`docs`（ドキュメント）、`refactor`（リファクタリング）、`test`（テスト）、`chore`（保守・設定変更）を使用する。
+- 先頭行は命令形ではなく、変更内容が分かる簡潔な文にする。末尾に句点は付けない。
+- 補足が必要な場合は空行の後に本文を記述し、変更の背景や理由を説明する。
+- 例: `docs(readme): 開発環境のセットアップ手順を追加`
