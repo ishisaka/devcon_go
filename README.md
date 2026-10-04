@@ -36,8 +36,8 @@
 1. このリポジトリをクローンします。
 
 ```sh
-git clone https://github.com/your-org/your-repo.git
-cd your-repo
+git clone https://github.com/ishisaka/devcon_go.git
+cd devcon_go
 ```
 
 2. Visual Studio Codeでフォルダーを開きます。
